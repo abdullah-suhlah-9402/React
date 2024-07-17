@@ -9,9 +9,22 @@ import "./app.css";
 // import Seven from "./Practice/Seven";
 // import Eight from "./Practice/Eight";
 // import Nine from "./Practice/Nine";
-import Ten from "./Practice/Ten";
+// import Ten from "./Practice/Ten";
+// import Eleven from "./Practice/Eleven";
+// import Twelve from "./Practice/Twelve";
+import Thirteen from "./Practice/Thirteen";
 
 export function App() {
+  const Items = [
+    "love",
+    "life",
+    "honesty",
+    "discipline",
+    "trust",
+    "betray",
+    "broken",
+  ];
+
   return (
     <>
       {/* <One /> */}
@@ -23,7 +36,10 @@ export function App() {
       {/* // <Seven /> */}
       {/* <Eight /> */}
       {/* <Nine /> */}
-      <Ten />
+      {/* <Ten /> */}
+      {/* <Eleven /> */}
+      {/* <Twelve Items={Items} /> */}
+      <Thirteen Items={Items} ItemsPerPage={2} />
     </>
   );
 }
